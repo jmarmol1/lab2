@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Cloning our git') {
             steps {
-                git 'https://github.com/jmarmol1/lab2'
+                 git branch: 'main', url: 'https://github.com/jmarmol1/lab2.git'
             }
         }
 
